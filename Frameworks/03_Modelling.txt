@@ -27,10 +27,16 @@ we split them into training split: 70-80%, validation split: 10-15%, test split:
 
     This happens during the experimentation
 
-    
     When you check the test set, the usual is to have a lower accuracy or performance than the training set
-    If the accuracy of the test set is significantly lower than the training set, that is called underfitting
-    If the accuracy of the test set is higher than the training set, that is called overfitting
+    Poor performance on training data means the model hasn’t learned properly and is underfitting. 
+    Try a different model, improve the existing one through hyperparameter or collect more data.
+
+    Great performance on the training data but poor performance on test data means your model doesn’t generalize well. 
+    Your model may be overfitting the training data. 
+    Try using a simpler model or making sure your the test data is of the same style your model is training on.
+
+    Another form of overfitting can come in the form of better performance on test data than training data. 
+    This may mean your testing data is leaking into your training data (incorrect data splits) or you've spent too much time optimizing your model for the test set data.
 
     The ideal model does not under or overfit, it is balanced.
     
@@ -46,6 +52,15 @@ we split them into training split: 70-80%, validation split: 10-15%, test split:
     Ways to solve overfitting:
         - Collect more data
         - Try a less advanced model (uncommon)
+
+THINGS TO REMEMBER
+
+Want to avoid overfitting and underfitting
+Keep the test set separate at all costs
+Compare apples to apples
+One best performance metric does not equal best model
+
+
 
 
 
