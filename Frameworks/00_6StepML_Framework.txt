@@ -1,0 +1,25 @@
+6 step Machine learning framework
+
+1. Problem definition: what problem are we trying to solve?
+	1a. Supervised
+	1b. Unsupervised
+	1c. Classification
+	1d. Regression
+
+2. Data: what kind of data do we have?
+	2a. Structured data? like csv files with rows and columns?
+	2b. Unstructured data? like images or sound files?
+
+3. Evaluation: What defines success for us?
+	e.g. We need a model that predicts house prices with 95% accuracy
+
+4. Features: What do we already know about the data?
+	Is the data numerical or categorical? 
+
+5. Modelling: Based on our problem and data, what model should we use?
+
+6. Experimentation: How could we improve?
+
+
+
+(This is just a rough guide of the Framework)

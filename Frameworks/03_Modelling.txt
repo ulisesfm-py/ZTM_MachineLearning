@@ -1,0 +1,13 @@
+3 parts to modelling
+
+Training, Validation and Test sets, or the 3 sets
+
+1. Choosing and training a model
+
+2. Tuning a model
+
+3. Model comparison
+
+e.g. of the 3 sets: 100 patient records
+we split them into training split: 70-80%, validation split: 10-15%, test split: 10-15%
+

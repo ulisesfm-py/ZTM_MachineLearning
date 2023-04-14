@@ -1,0 +1,32 @@
+Types of ML
+
+1. Supervised 
+
+    1a. Classification - e.g. Is this example one thing or another?
+    if we have 2 options is  Binary classification.
+    if we have 2+ options is multi-class classification
+
+    1b. Regression
+    How much will this house sell for? (statistical model prediction of a value)
+    How many people will buy this app?
+
+2. Unsupervised: has data but no labels
+
+    2a. Clustering
+    e.g. You might have different customer IDs, and you know what they bought
+    Using Unsupervised learning you might find patterns and group types of customers based on their behaviour
+
+3. Transfer learning
+
+    e.g. Using a model that identifies car types and using it to identify dogs. The "template" is the same.
+
+4. Reinforcement learning
+
+    Having a computer program, perform some actions and rewarding or punishing depending on the result. 
+    e.g. rewarding could be updating the score with +1 if it wins a chess game.
+
+
+
+
+    
+
