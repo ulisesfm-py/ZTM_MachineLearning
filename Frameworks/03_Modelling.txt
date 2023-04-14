@@ -34,7 +34,18 @@ we split them into training split: 70-80%, validation split: 10-15%, test split:
 
     The ideal model does not under or overfit, it is balanced.
     
+    Data missmatch happens when the data your testing on is different than the data you're training on.
+    Training and testing must be done on the same type of data. That's why often we split the same array of data into training and testing.
 
+    Some ways to comeback underfitting include: 
+        - Using a more advanced model
+        - Increasing the model hyperparameters
+        - Reducing the amount of features
+        - Training for longer
+
+    Ways to solve overfitting:
+        - Collect more data
+        - Try a less advanced model (uncommon)
 
 
 
