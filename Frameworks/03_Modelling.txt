@@ -2,12 +2,39 @@
 
 Training, Validation and Test sets, or the 3 sets
 
+e.g. of the 3 sets: 100 patient records
+we split them into training split: 70-80%, validation split: 10-15%, test split: 10-15%
+
 1. Choosing and training a model
+
+    Training data: what kind of algorithm or machine model is better for my problem?
+
+    When choosing a model, not only we have to consider the accuracy, but also the training time.
+    Some models work better than others on different problems
+    Don't be afraid to try things
+    Start small and build up (add complexity) 
 
 2. Tuning a model
 
+    e.g. Random Forest model allows to adjust the number of trees
+    e.g. Neural Networks allows to adjust the number of layers
+
+    ML models have hyperparameters that you can adjust
+    A model first results aren't its last
+    Tuning can take place on training or validation data sets
+
 3. Model comparison
 
-e.g. of the 3 sets: 100 patient records
-we split them into training split: 70-80%, validation split: 10-15%, test split: 10-15%
+    This happens during the experimentation
+
+    
+    When you check the test set, the usual is to have a lower accuracy or performance than the training set
+    If the accuracy of the test set is significantly lower than the training set, that is called underfitting
+    If the accuracy of the test set is higher than the training set, that is called overfitting
+
+    The ideal model does not under or overfit, it is balanced.
+    
+
+
+
 
