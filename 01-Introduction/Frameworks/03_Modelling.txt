@@ -1,0 +1,66 @@
+3 parts to modelling
+
+Training, Validation and Test sets, or the 3 sets
+
+e.g. of the 3 sets: 100 patient records
+we split them into training split: 70-80%, validation split: 10-15%, test split: 10-15%
+
+1. Choosing and training a model
+
+    Training data: what kind of algorithm or machine model is better for my problem?
+
+    When choosing a model, not only we have to consider the accuracy, but also the training time.
+    Some models work better than others on different problems
+    Don't be afraid to try things
+    Start small and build up (add complexity) 
+
+2. Tuning a model
+
+    e.g. Random Forest model allows to adjust the number of trees
+    e.g. Neural Networks allows to adjust the number of layers
+
+    ML models have hyperparameters that you can adjust
+    A model first results aren't its last
+    Tuning can take place on training or validation data sets
+
+3. Model comparison
+
+    This happens during the experimentation
+
+    When you check the test set, the usual is to have a lower accuracy or performance than the training set
+    Poor performance on training data means the model hasn’t learned properly and is underfitting. 
+    Try a different model, improve the existing one through hyperparameter or collect more data.
+
+    Great performance on the training data but poor performance on test data means your model doesn’t generalize well. 
+    Your model may be overfitting the training data. 
+    Try using a simpler model or making sure your the test data is of the same style your model is training on.
+
+    Another form of overfitting can come in the form of better performance on test data than training data. 
+    This may mean your testing data is leaking into your training data (incorrect data splits) or you've spent too much time optimizing your model for the test set data.
+
+    The ideal model does not under or overfit, it is balanced.
+    
+    Data missmatch happens when the data your testing on is different than the data you're training on.
+    Training and testing must be done on the same type of data. That's why often we split the same array of data into training and testing.
+
+    Some ways to comeback underfitting include: 
+        - Using a more advanced model
+        - Increasing the model hyperparameters
+        - Reducing the amount of features
+        - Training for longer
+
+    Ways to solve overfitting:
+        - Collect more data
+        - Try a less advanced model (uncommon)
+
+THINGS TO REMEMBER
+
+Want to avoid overfitting and underfitting
+Keep the test set separate at all costs
+Compare apples to apples
+One best performance metric does not equal best model
+
+
+
+
+

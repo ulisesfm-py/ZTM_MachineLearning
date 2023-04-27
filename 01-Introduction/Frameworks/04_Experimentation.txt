@@ -1,0 +1,10 @@
+Data modelling is a highly iterative process
+
+Experimenting means asking: What else can we try?
+
+Remember that there are 3 major steps:
+
+    1. Create a framework
+    2. Match to data science and ML tools
+    3. Learn by doing 
+

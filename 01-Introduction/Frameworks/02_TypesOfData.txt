@@ -1,0 +1,23 @@
+1. Structured
+    
+    Usually it comes in similar format, with columns and rows.
+    e.g. it might be an excel table with weights, age, gender,
+    and the result might be: Does this individual have a heart disease?
+
+2. Unstructured
+
+    The format changes from one sample to another.
+    e.g. Audio files, images, emails.
+
+The more data the better.
+
+The data can also divide in two different groups:
+
+A. Static data
+
+    e.g. patient historic data
+
+B. Streaming data
+
+    e.g. stock price
+
