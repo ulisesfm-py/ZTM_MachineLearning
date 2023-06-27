@@ -1,4 +1,4 @@
-#Installing Miniconda on Linux
+# Installing Miniconda on Linux
 
 1. [Download Miniconda installer for Linux](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
 2. [Verify your installer hashes](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html#hash-verification) 
@@ -21,7 +21,7 @@ conda --version
 conda update conda
 '''
 
-#Managing environments
+# Managing environments
 
 Conda allows you to create separate environments containing files, packages and their dependencies.
 
